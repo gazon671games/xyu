@@ -1,0 +1,629 @@
+{
+        "Contracts": {
+        "Contract": [
+        {
+        "Coverage": {
+        "Cover": [
+        {
+        "Code7GS": "14617",
+        "CodeGVS": "109",
+        "CodeUGS": "10.7",
+        "CodeUVS": "16233020",
+        "CoverId": {
+        "Id": "pctst01:417948",
+        "MetaInfo": {
+        "Info": [
+        {
+        "Value": "pctst01:417948",
+        "name": "MainCoverId"
+        }
+        ]
+        },
+        "SysId": "GWPC",
+        "Type": "COVER"
+        },
+        "CoverTypeId": {
+        "Id": "intdecengeqflat",
+        "SysId": "SCC2",
+        "Type": "DICTRISKOBJECTTYPE_22"
+        },
+        "Currency": {
+        "CurDate": "2021-03-15",
+        "CurName": "RUB",
+        "CurRate": 1.0
+        },
+        "EndDate": "2022-03-20T23:59:59+03:00",
+        "InsPrem": 2000.0,
+        "InsSum": 1000000.0,
+        "InsurancePremiumRUB": 2000.0,
+        "InsuranceSumRUB": 1000000.0,
+        "PrevInsurancePremiumRUB": 1000.0,
+        "InsuredObjectId": {
+        "Id": "pctst01:260624",
+        "SysId": "GWPC",
+        "Type": "INSUREDOBJECT"
+        },
+        "MainCoverId": {
+        "Id": "pctst01:417948",
+        "SysId": "GWPC",
+        "Type": "COVER"
+        },
+        "StartDate": "2021-03-21T00:00:00+03:00"
+        },
+        {
+        "Code7GS": "14617",
+        "CodeGVS": "109",
+        "CodeUGS": "10.7",
+        "CodeUVS": "16233020",
+        "CoverId": {
+        "Id": "pctst01:417949",
+        "MetaInfo": {
+        "Info": [
+        {
+        "Value": "pctst01:417949",
+        "name": "MainCoverId"
+        }
+        ]
+        },
+        "SysId": "GWPC",
+        "Type": "COVER"
+        },
+        "CoverTypeId": {
+        "Id": "intdecengeqbuilding",
+        "SysId": "SCC2",
+        "Type": "DICTRISKOBJECTTYPE_22"
+        },
+        "Currency": {
+        "CurDate": "2021-03-15",
+        "CurName": "RUB",
+        "CurRate": 1.0
+        },
+        "EndDate": "2022-03-20T23:59:59+03:00",
+        "InsPrem": 600.0,
+        "InsSum": 300000.0,
+        "InsurancePremiumRUB": 600.0,
+        "InsuranceSumRUB": 300000.0,
+        "PrevInsurancePremiumRUB": 1000.0,
+        "InsuredObjectId": {
+        "Id": "pctst01:260624",
+        "SysId": "GWPC",
+        "Type": "INSUREDOBJECT"
+        },
+        "MainCoverId": {
+        "Id": "pctst01:417949",
+        "SysId": "GWPC",
+        "Type": "COVER"
+        },
+        "StartDate": "2021-03-21T00:00:00+03:00"
+        },
+        {
+        "Code7GS": "14617",
+        "CodeGVS": "109",
+        "CodeUGS": "10.7",
+        "CodeUVS": "16233030",
+        "CoverId": {
+        "Id": "pctst01:417950",
+        "MetaInfo": {
+        "Info": [
+        {
+        "Value": "pctst01:417950",
+        "name": "MainCoverId"
+        }
+        ]
+        },
+        "SysId": "GWPC",
+        "Type": "COVER"
+        },
+        "CoverTypeId": {
+        "Id": "homepropertyflat",
+        "SysId": "SCC2",
+        "Type": "DICTRISKOBJECTTYPE_22"
+        },
+        "Currency": {
+        "CurDate": "2021-03-15",
+        "CurName": "RUB",
+        "CurRate": 1.0
+        },
+        "EndDate": "2022-03-20T23:59:59+03:00",
+        "InsPrem": 1620.0,
+        "InsSum": 300000.0,
+        "InsurancePremiumRUB": 1620.0,
+        "InsuranceSumRUB": 300000.0,
+        "PrevInsurancePremiumRUB": 1000.0,
+        "InsuredObjectId": {
+        "Id": "pctst01:260624",
+        "SysId": "GWPC",
+        "Type": "INSUREDOBJECT"
+        },
+        "MainCoverId": {
+        "Id": "pctst01:417950",
+        "SysId": "GWPC",
+        "Type": "COVER"
+        },
+        "StartDate": "2021-03-21T00:00:00+03:00"
+        },
+        {
+        "Code7GS": "14617",
+        "CodeGVS": "109",
+        "CodeUGS": "14.7",
+        "CodeUVS": "18233020",
+        "CoverId": {
+        "Id": "pctst01:417951",
+        "MetaInfo": {
+        "Info": [
+        {
+        "Value": "pctst01:417951",
+        "name": "MainCoverId"
+        }
+        ]
+        },
+        "SysId": "GWPC",
+        "Type": "COVER"
+        },
+        "CoverTypeId": {
+        "Id": "thirdpartyliabilityflat",
+        "SysId": "SCC2",
+        "Type": "DICTRISKOBJECTTYPE_22"
+        },
+        "Currency": {
+        "CurDate": "2021-03-15",
+        "CurName": "RUB",
+        "CurRate": 1.0
+        },
+        "EndDate": "2022-03-20T23:59:59+03:00",
+        "InsPrem": 1375.0,
+        "InsSum": 250000.0,
+        "InsurancePremiumRUB": 1375.0,
+        "InsuranceSumRUB": 250000.0,
+        "PrevInsurancePremiumRUB": 1000.0,
+        "InsuredObjectId": {
+        "Id": "pctst01:260624",
+        "SysId": "GWPC",
+        "Type": "INSUREDOBJECT"
+        },
+        "MainCoverId": {
+        "Id": "pctst01:417951",
+        "SysId": "GWPC",
+        "Type": "COVER"
+        },
+        "StartDate": "2021-03-21T00:00:00+03:00"
+        },
+        {
+        "Code7GS": "17861",
+        "CodeGVS": "110",
+        "CodeUGS": "02.7",
+        "CodeUVS": "14081000",
+        "CoverId": {
+        "Id": "pctst01:417952",
+        "MetaInfo": {
+        "Info": [
+        {
+        "Value": "pctst01:417952",
+        "name": "MainCoverId"
+        }
+        ]
+        },
+        "SysId": "GWPC",
+        "Type": "COVER"
+        },
+        "CoverTypeId": {
+        "Id": "homepropertybuilding",
+        "SysId": "SCC2",
+        "Type": "DICTRISKOBJECTTYPE_22"
+        },
+        "Currency": {
+        "CurDate": "2021-03-15",
+        "CurName": "RUB",
+        "CurRate": 1.0
+        },
+        "EndDate": "2022-03-20T23:59:59+03:00",
+        "InsPrem": 480.0,
+        "InsSum": 1200000.0,
+        "InsurancePremiumRUB": 480.0,
+        "InsuranceSumRUB": 1200000.0,
+        "PrevInsurancePremiumRUB": 1000.0,
+        "InsuredObjectId": {
+        "Id": "pctst01:260624",
+        "SysId": "GWPC",
+        "Type": "INSUREDOBJECT"
+        },
+        "MainCoverId": {
+        "Id": "pctst01:417952",
+        "SysId": "GWPC",
+        "Type": "COVER"
+        },
+        "StartDate": "2021-03-21T00:00:00+03:00"
+        },
+        {
+        "Code7GS": "14617",
+        "CodeGVS": "109",
+        "CodeUGS": "10.7",
+        "CodeUVS": "16233020",
+        "CoverId": {
+        "Id": "pctst01:417953",
+        "MetaInfo": {
+        "Info": [
+        {
+        "Value": "pctst01:417953",
+        "name": "MainCoverId"
+        }
+        ]
+        },
+        "SysId": "GWPC",
+        "Type": "COVER"
+        },
+        "CoverTypeId": {
+        "Id": "thirdpartyliabilitybuilding",
+        "SysId": "SCC2",
+        "Type": "DICTRISKOBJECTTYPE_22"
+        },
+        "Currency": {
+        "CurDate": "2021-03-15",
+        "CurName": "RUB",
+        "CurRate": 1.0
+        },
+        "EndDate": "2022-03-20T23:59:59+03:00",
+        "InsPrem": 2000.0,
+        "InsSum": 1000000.0,
+        "InsurancePremiumRUB": 2000.0,
+        "InsuranceSumRUB": 1000000.0,
+        "PrevInsurancePremiumRUB": 1000.0,
+        "InsuredObjectId": {
+        "Id": "pctst01:260624",
+        "SysId": "GWPC",
+        "Type": "INSUREDOBJECT"
+        },
+        "MainCoverId": {
+        "Id": "pctst01:417953",
+        "SysId": "GWPC",
+        "Type": "COVER"
+        },
+        "StartDate": "2021-03-21T00:00:00+03:00"
+        }
+        ]
+        },
+        "Data": {
+        "AgentStatementInfo": {
+        "Date": "2021-03-15",
+        "Number": "00031092"
+        }
+        },
+        "Header": {
+        "ArchivRef": {
+        "File": [
+        {
+        "FileId": {
+        "Id": "d27de77f-5726-457c-9598-9c8ff0e1e477",
+        "SysId": "FILESTORE",
+        "Type": "FILE"
+        },
+        "URL": "d27de77f-5726-457c-9598-9c8ff0e1e477"
+        }
+        ]
+        },
+        "BranchCode": "16207320",
+        "Brokers": {
+        "Broker": [
+        {
+        "BrokerListRole": {
+        "BrokerRole": [
+        {
+        "RoleId": {
+        "Id": "4",
+        "SysId": "GWPC",
+        "Type": "BROKERROLE"
+        }
+        },
+        {
+        "RoleId": {
+        "Id": "7",
+        "SysId": "GWPC",
+        "Type": "BROKERROLE"
+        }
+        }
+        ]
+        },
+        "Code": "1588426",
+        "PersonId": {
+        "Id": "pcrprod:59263",
+        "SysId": "GWPC",
+        "Type": "PERSON"
+        }
+        }
+        ]
+        },
+        "ContractFeatureId": {
+        "Id": "1",
+        "SysId": "GWPC",
+        "Type": "DICTCONTRACTOPTION"
+        },
+        "ContractId": {
+        "Id": "pctst01:689677",
+        "SysId": "GWPC",
+        "Type": "CONTRACT"
+        },
+        "ContractStateSecret": false,
+        "ContractVersionNumber": 1,
+        "Currency": {
+        "CurDate": "2021-03-15",
+        "CurName": "RUB",
+        "CurRate": 1.0
+        },
+        "EndDate": "2022-03-20T23:59:59+03:00",
+        "EntityTypeId": {
+        "Id": "1",
+        "SysId": "XML",
+        "Type": "ENTITY_TYPE"
+        },
+        "InsurancePremiumFull": 6075.0,
+        "InsurancePremiumFullRUB": 6075.0,
+        "InsuranceSumFull": 3050000.0,
+        "InsuranceSumFullRUB": 3050000.0,
+        "InsurerId": {
+        "Id": "pctst01:44930512",
+        "SysId": "GWPC",
+        "Type": "PERSON"
+        },
+        "LiabilityEndDate": "2022-03-20T23:59:59+03:00",
+        "LiabilityStartDate": "2021-03-21T00:00:00+03:00",
+        "MainContractId": {
+        "Id": "pctst01:689677",
+        "MetaInfo": {
+        "Info": [
+        {
+        "name": "VSSHOUSING_ID",
+        "Value": "7e73db7e-9b5b-3bc3-bd64-830f73797cac"
+        }
+        ]
+        },
+        "SysId": "GWPC",
+        "Type": "CONTRACT"
+        },
+        "MainContractSignDate": "2021-03-15T00:00:00+03:00",
+        "MainContractStartDate": "2021-03-21T00:00:00+03:00",
+        "Number": "00000299",
+        "OperationStatusId": {
+        "Id": "1",
+        "SysId": "XML",
+        "Type": "OPERSTATUS"
+        },
+        "PremiumAccrualDate": "2021-03-21",
+        "ProductId": {
+        "Id": "houseprotectionrgs_s_box",
+        "SysId": "GWPC",
+        "Type": "PRODUCT_TYPE"
+        },
+        "SaleChannelId": {
+        "Id": "131",
+        "SysId": "SCC2",
+        "Type": "DICTSALECHANNELTYPE200"
+        },
+        "Series": "R004777",
+        "SignDate": "2021-03-15T00:00:00+03:00",
+        "StartDate": "2021-03-21T00:00:00+03:00"
+        },
+        "InsuredObjects": {
+        "RealEstate": [
+        {
+        "Address": {
+        "AddressTypeId": {
+        "Id": "1",
+        "SysId": "SCC2",
+        "Type": "ADDR_TYPE_OK"
+        },
+        "Appartment": "1",
+        "City": "г Москва",
+        "CountryCode": "643",
+        "FullAddress": "г Москва, ул Ленивка, д 3",
+        "House": "3",
+        "Street": "ул Ленивка",
+        "Subject": "город.Москва"
+        },
+        "InsuredOptions": {
+        "IsElectronicBreakdown": true,
+        "IsLiquid": false,
+        "IsLux": false,
+        "IsWinter": true
+        },
+        "IsFlammableEquip": false,
+        "IsRent": false,
+        "ObjectId": {
+        "Id": "pctst01:260624",
+        "SysId": "GWPC",
+        "Type": "INSUREDOBJECT"
+        },
+        "ObjectTypeId": {
+        "Id": "1",
+        "SysId": "GWPC",
+        "Type": "D_INSOBJ_TYPE"
+        },
+        "TotalArea": 15
+        }
+        ]
+        },
+        "Invoices": {
+        "Invoice": [
+        {
+        "BranchCode": "16207320",
+        "Currency": {
+        "CurDate": "2021-03-15",
+        "CurName": "RUB",
+        "CurRate": 1.0
+        },
+        "Date": "2021-03-15T09:57:10+03:00",
+        "InvoiceId": {
+        "Id": "bctst01:893019",
+        "SysId": "GWBC",
+        "Type": "INVOICE_TYPE"
+        },
+        "InvoiceProperties": {
+        "Property": [
+        {
+        "Key": "PaymentDocumentTypeId",
+        "Value": "19"
+        },
+        {
+        "Key": "Number",
+        "Value": "11134534534"
+        }
+        ]
+        },
+        "Number": "11134534534",
+        "PaymentMethodId": {
+        "Id": "4",
+        "SysId": "SCC2",
+        "Type": "INVOICE"
+        },
+        "PaymentSum": 6075.0
+        }
+        ]
+        },
+        "PaymentScheduleList": {
+        "PaymentSchedule": [
+        {
+        "Currency": {
+        "CurDate": "2021-03-15",
+        "CurName": "RUB",
+        "CurRate": 1.0
+        },
+        "PaymentDeadLineDate": "2021-03-15",
+        "PaymentSum": 6075.0,
+        "PaymentSumRUB": 6075.0
+        }
+        ]
+        },
+        "Persons": {
+        "Person": [
+        {
+        "Addresses": {
+        "Address": [
+        {
+        "AddressTypeId": {
+        "Id": "1",
+        "SysId": "SCC2",
+        "Type": "ADDR_TYPE_OK"
+        },
+        "Appartment": "1",
+        "City": "г Москва",
+        "CountryCode": "643",
+        "FullAddress": "г Москва, ул Ленивка, д 3",
+        "House": "3",
+        "Street": "ул Ленивка",
+        "Subject": "город.Москва"
+        }
+        ]
+        },
+        "Birthday": "2000-01-01",
+        "CountryCode": "643",
+        "Documents": {
+        "Document": [
+        {
+        "DocIssueDate": "2020-01-01",
+        "DocIssuedBy": "УВД",
+        "DocIssuedByCode": "330-330",
+        "DocNumber": "678454",
+        "DocSeries": "6786",
+        "DocTypeId": {
+        "Id": "012",
+        "SysId": "XML",
+        "Type": "DOCUMENT_TYPE"
+        }
+        }
+        ]
+        },
+        "Emails": {
+        "Email": [
+        {
+        "EmailAddress": "pcyxanov@mmtr.ru",
+        "EmailTypeId": {
+        "Id": "1",
+        "SysId": "XML",
+        "Type": "EMAIL_TYPE"
+        }
+        }
+        ]
+        },
+        "FirstNameRus": "Родныестены",
+        "Gender": "M",
+        "IsPublic": false,
+        "IsPublicRelative": false,
+        "IsResident": true,
+        "LastNameRus": "Чернов",
+        "MiddleNameRus": "Николаевич",
+        "PersonId": {
+        "Id": "pctst01:44930512",
+        "SysId": "GWPC",
+        "Type": "PERSON"
+        },
+        "PersonTypeId": {
+        "Id": "1",
+        "SysId": "XML",
+        "Type": "PERSON_TYPE"
+        },
+        "Phones": {
+        "Phone": [
+        {
+        "CountryCode": "7",
+        "FullNumber": "+7(991)456-45-55",
+        "Number": "4564555",
+        "Prefix": "991",
+        "TypeId": {
+        "Id": "4",
+        "SysId": "XML",
+        "Type": "PHONE_TYPE"
+        }
+        }
+        ]
+        },
+        "RoleList": {
+        "Role": [
+        {
+        "RoleId": {
+        "Id": "1",
+        "SysId": "XML",
+        "Type": "CONTR_PERS_TYPE"
+        }
+        }
+        ]
+        },
+        "ShortNameRus": "Чернов Родныестены Николаевич"
+        },
+        {
+        "Birthday": "1970-01-01",
+        "CountryCode": "643",
+        "Emails": {
+        "Email": [
+        {
+        "EmailAddress": "mail@mail.ru",
+        "EmailTypeId": {
+        "Id": "1",
+        "SysId": "XML",
+        "Type": "EMAIL_TYPE"
+        }
+        }
+        ]
+        },
+        "FirstNameRus": "Алексей",
+        "IsPublic": false,
+        "IsPublicRelative": false,
+        "IsResident": true,
+        "LastNameRus": "Тестов",
+        "PersonId": {
+        "Id": "pcrprod:59263",
+        "SysId": "GWPC",
+        "Type": "PERSON"
+        },
+        "PersonTypeId": {
+        "Id": "1",
+        "SysId": "XML",
+        "Type": "PERSON_TYPE"
+        }
+        }
+        ]
+        }
+        }
+        ]
+        },
+        "ContractsCount": 1,
+        "schemaVersion": "1.0"
+        }
