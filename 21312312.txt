@@ -1,0 +1,95 @@
+<pay:Check xmlns="http://rgs.ru/schema/payment20" xmlns:pay="http://rgs.ru/schema/payment20" xmlns:cmn="http://rgs.ru/schema/common10" schemaVersion="1.0">
+<pay:TechData> 
+    <cmn:Originator>KIAS</cmn:Originator> 
+    <cmn:MessageId>D39479DD-D394-D394-D394-D39479DDE984</cmn:MessageId> 
+    <cmn:CorrelationId>D39479DD-D394-D394-D394-D39479DDE985</cmn:CorrelationId> 
+    <cmn:MessageCode>CheckCreate</cmn:MessageCode> 
+    <cmn:MessageType>Request</cmn:MessageType> 
+    <cmn:Priority>5</cmn:Priority> 
+    <cmn:GroupId>D39479DD-D394-D394-D394-D39479DDE986</cmn:GroupId> 
+    <cmn:GroupSeq>1</cmn:GroupSeq> 
+    <cmn:Recipients>VIRTU</cmn:Recipients> 
+    <cmn:ResponseRequired>true</cmn:ResponseRequired> 
+    <cmn:NotificationRequired>false</cmn:NotificationRequired> 
+  </pay:TechData>
+<pay:BusinessData>
+<pay:Check>
+<pay:PaymentDocumentId>
+<cmn:Id>2d61a2a5-7bce-4acb-97f1-286c2ab8f103</cmn:Id>
+<cmn:SysId>VIRTU</cmn:SysId>
+<cmn:Type>PAYMENTDOCUMENT</cmn:Type>
+</pay:PaymentDocumentId>
+<pay:CheckRequest>
+<pay:Timestamp>2021-12-20T15:53:05</pay:Timestamp>
+<pay:ExternalId>
+<cmn:Id>2283646547</cmn:Id>
+<cmn:SysId>KIAS</cmn:SysId>
+<cmn:Type>CHECK</cmn:Type>
+</pay:ExternalId>
+<pay:IsBso>0</pay:IsBso>
+<pay:Receipt>
+<pay:Operation>sell</pay:Operation>
+<pay:Client>
+<pay:Email>
+<cmn:EmailAddress>Нет данных</cmn:EmailAddress>
+</pay:Email>
+</pay:Client>
+<pay:Company>
+<pay:Email>
+<cmn:EmailAddress>
+</cmn:EmailAddress>
+</pay:Email>
+<pay:Sno>РОСГОССТРАХ</pay:Sno>
+<pay:Inn>7707067683</pay:Inn>
+<pay:PaymentAddress>140002,МосковскаяОбласть,г.Люберцы,ул.Парковая,д.3</pay:PaymentAddress>
+</pay:Company>
+<pay:Items>
+<pay:Item>
+<pay:Name>Страховой взнос по договору ТТТ 7010307804</pay:Name>
+<pay:Price>5578.31</pay:Price>
+<pay:Quantity>1</pay:Quantity>
+<pay:Sum>5578.31</pay:Sum>
+<pay:PaymentMethod>full_payment</pay:PaymentMethod>
+<pay:PaymentObject>service</pay:PaymentObject>
+<pay:Vat>
+<pay:Type>none</pay:Type>
+</pay:Vat>
+</pay:Item>
+</pay:Items>
+<pay:Payments>
+<pay:Payment>
+<pay:Type>0</pay:Type>
+<pay:Sum>5578.31</pay:Sum>
+</pay:Payment>
+</pay:Payments>
+<pay:Total>5578.31</pay:Total>
+<pay:Cashier>Загороднева Елена Александровна</pay:Cashier>
+</pay:Receipt>
+</pay:CheckRequest>
+<pay:CheckResponse>
+<pay:Uuid>e5aed55c-ecb5-4f94-b64f-0a44e2c7210a</pay:Uuid>
+<pay:Timestamp>2021-12-20T15:53:12</pay:Timestamp>
+<pay:CallbackUrl>
+</pay:CallbackUrl>
+<pay:Status>done</pay:Status>
+<pay:GroupCode>group_code_16798</pay:GroupCode>
+<pay:DaemonCode>prod-agent-31</pay:DaemonCode>
+<pay:DeviceCode>KZN035102</pay:DeviceCode>
+<pay:ExternalId>2283646547</pay:ExternalId>
+<pay:Payload>
+<pay:ShiftNumber>360</pay:ShiftNumber>
+<pay:FiscalReceiptNumber>1013</pay:FiscalReceiptNumber>
+<pay:ReceiptDatetime>2021-12-20T15:52:00</pay:ReceiptDatetime>
+<pay:Total>5578.31</pay:Total>
+<pay:FnNumber>9289440300712346</pay:FnNumber>
+<pay:EcrRegistrationNumber>0004023289046569</pay:EcrRegistrationNumber>
+<pay:FiscalDocumentNumber>154461</pay:FiscalDocumentNumber>
+<pay:FiscalDocumentAttribute>577406251</pay:FiscalDocumentAttribute>
+<pay:FnsSite>https://www.nalog.ru/rn77/</pay:FnsSite>
+<pay:OfdInn>9715260691</pay:OfdInn>
+<pay:OfdReceiptUrl>https://lk.platformaofd.ru/web/noauth/cheque?fn=9289440300712346&amp;fp=577406251&amp;i=154461</pay:OfdReceiptUrl>
+</pay:Payload>
+</pay:CheckResponse>
+</pay:Check>
+</pay:BusinessData>
+</pay:Check>
