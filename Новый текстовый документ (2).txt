@@ -1,0 +1,95 @@
+<pay:Check xmlns="http://rgs.ru/schema/payment20" xmlns:pay="http://rgs.ru/schema/payment20" xmlns:cmn="http://rgs.ru/schema/common10" schemaVersion="1.0">
+<pay:TechData> 
+    <cmn:Originator>KIAS</cmn:Originator> 
+    <cmn:MessageId>BD188D34-BD18-BD18-BD18-BD188D34B3C4</cmn:MessageId> 
+    <cmn:CorrelationId>BD188D34-BD18-BD18-BD18-BD188D34B3C5</cmn:CorrelationId> 
+    <cmn:MessageCode>CheckCreate</cmn:MessageCode> 
+    <cmn:MessageType>Request</cmn:MessageType> 
+    <cmn:Priority>5</cmn:Priority> 
+    <cmn:GroupId>BD188D34-BD18-BD18-BD18-BD188D34B3C6</cmn:GroupId> 
+    <cmn:GroupSeq>1</cmn:GroupSeq> 
+    <cmn:Recipients>VIRTU</cmn:Recipients> 
+    <cmn:ResponseRequired>true</cmn:ResponseRequired> 
+    <cmn:NotificationRequired>false</cmn:NotificationRequired> 
+  </pay:TechData>
+<pay:BusinessData>
+<pay:Check>
+<pay:PaymentDocumentId>
+<cmn:Id>905fc08b-9e13-435e-aae0-1883649c5c48</cmn:Id>
+<cmn:SysId>VIRTU</cmn:SysId>
+<cmn:Type>PAYMENTDOCUMENT</cmn:Type>
+</pay:PaymentDocumentId>
+<pay:CheckRequest>
+<pay:Timestamp>2021-03-09T12:51:04</pay:Timestamp>
+<pay:ExternalId>
+<cmn:Id>949416886</cmn:Id>
+<cmn:SysId>KIAS</cmn:SysId>
+<cmn:Type>CHECK</cmn:Type>
+</pay:ExternalId>
+<pay:IsBso>0</pay:IsBso>
+<pay:Receipt>
+<pay:Operation>sell_refund</pay:Operation>
+<pay:Client>
+<pay:Email>
+<cmn:emailaddress>qa@virtusystems.ru</cmn:EmailAddress>
+</pay:Email>
+</pay:Client>
+<pay:Company>
+<pay:Email>
+<cmn:EmailAddress>
+</cmn:EmailAddress>
+</pay:Email>
+<pay:Sno>РОСГОССТРАХ</pay:Sno>
+<pay:Inn>5544332219</pay:Inn>
+<pay:PaymentAddress>140002,МосковскаяОбласть,г.Люберцы,ул.Парковая,д.3</pay:PaymentAddress>
+</pay:Company>
+<pay:Items>
+<pay:Item>
+<pay:Name>Страховой взнос по договору 7100 51013560</pay:Name>
+<pay:Price>486980</pay:Price>
+<pay:Quantity>1</pay:Quantity>
+<pay:Sum>486980</pay:Sum>
+<pay:PaymentMethod>full_payment</pay:PaymentMethod>
+<pay:PaymentObject>service</pay:PaymentObject>
+<pay:Vat>
+<pay:Type>none</pay:Type>
+</pay:Vat>
+</pay:Item>
+</pay:Items>
+<pay:Payments>
+<pay:Payment>
+<pay:Type>1</pay:Type>
+<pay:Sum>486980</pay:Sum>
+</pay:Payment>
+</pay:Payments>
+<pay:Total>486980</pay:Total>
+<pay:Cashier>Тестовый Пользователь Краснодар</pay:Cashier>
+</pay:Receipt>
+</pay:CheckRequest>
+<pay:CheckResponse>
+<pay:Uuid>90c82ba5-44aa-4a2c-9f5a-7367d11e7cf3</pay:Uuid>
+<pay:Timestamp>2021-03-09T12:51:13</pay:Timestamp>
+<pay:CallbackUrl>
+</pay:CallbackUrl>
+<pay:Status>done</pay:Status>
+<pay:GroupCode>v4-online-atol-ru_4179</pay:GroupCode>
+<pay:DaemonCode>nextserver</pay:DaemonCode>
+<pay:DeviceCode>KKT000124</pay:DeviceCode>
+<pay:ExternalId>949416886</pay:ExternalId>
+<pay:Payload>
+<pay:ShiftNumber>26</pay:ShiftNumber>
+<pay:FiscalReceiptNumber>1495</pay:FiscalReceiptNumber>
+<pay:ReceiptDatetime>2021-03-09T12:48:00</pay:ReceiptDatetime>
+<pay:Total>486980</pay:Total>
+<pay:FnNumber>9999078900006242</pay:FnNumber>
+<pay:EcrRegistrationNumber>0000000005017793</pay:EcrRegistrationNumber>
+<pay:FiscalDocumentNumber>42294</pay:FiscalDocumentNumber>
+<pay:FiscalDocumentAttribute>4117500152</pay:FiscalDocumentAttribute>
+<pay:FnsSite>www.nalog.ru</pay:FnsSite>
+<pay:OfdInn>9715260691</pay:OfdInn>
+<pay:OfdReceiptUrl>https://lk.platformaofd.ru/web/noauth/cheque?fn=9999078900006242&amp;fp=4117500152&amp;i=42294</pay:OfdReceiptUrl>
+</pay:Payload>
+</pay:CheckResponse>
+</pay:Check>
+</pay:BusinessData>
+</pay:Check>
