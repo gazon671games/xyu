@@ -1,0 +1,38 @@
+<jms:event stamp="2013-03-22T10:05:00" xmlns:jms="http://hflabs.ru/cdi/jms/2_27" xmlns="http://hflabs.ru/cdi/soap/2_13">
+    <jms:action type="MERGE">
+        <party type="PHYSICAL" hid="1024" sourceSystem="GURU" rawId="1"/>
+    </jms:action>
+    <jms:action type="MERGE">
+        <party type="PHYSICAL" hid="1025" sourceSystem="GWPC" rawId="pctst08:34003"/>
+    </jms:action>
+    <jms:action type="CREATE">
+        <party type="PHYSICAL" hid="1026">
+            <field name="surname">true</field>
+            <field name="name">АЛЕКСАНДР</field>
+            <field name="patronymic">АЛЕКСАНДРОВИЧ</field>
+            <field name="fullNameQC">EDITED</field>
+            <field name="fullNameAuthor">GURU:1</field>
+            <field name="fullNameRawSource">Вяхорев Александр Александрович</field>
+            <attribute type="PHONE" hid="1026" rawId="GURU.PH.1">
+                <field name="author">GURU:1</field>
+                <field name="type">MOBILE</field>
+                <field name="countryCode">7</field>
+                <field name="cityCode">495</field>
+                <field name="number">2171523</field>
+                <field name="qualityCode">GOOD</field>
+                <field name="rawSource">8-495-217-15-23</field>
+            </attribute>
+            <attribute type="PHONE" hid="1027" rawId="GWPC.PH.1">
+                <field name="author">GWPC:1</field>
+                <field name="type">HOME</field>
+                <field name="countryCode">7</field>
+                <field name="cityCode">916</field>
+                <field name="number">8342323</field>
+                <field name="qualityCode">GOOD</field>
+                <field name="rawSource">7-916-8342323</field>
+            </attribute>
+            <source hid="1024" sourceSystem="GURU" rawId="1" archive ="true"/>
+            <source hid="1025" sourceSystem="GWPC" rawId="pctst08:34003"/>
+        </party>
+    </jms:action>
+</jms:event>
